@@ -4,8 +4,6 @@ import * as S from './style'
 import { Link } from 'gatsby'
 import styled from "styled-components";
 
-
-
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: #ebcb1e;
@@ -21,8 +19,7 @@ export function Header() {
     <S.Container>
 
        <img src ="https://cdn.shopify.com/s/files/1/0100/8176/3385/files/Harry-Potter-Logo.png?v=1597938413" alt="" width="300"/>
-      
-      
+    
       <S.List>
 
         <li>
@@ -35,8 +32,6 @@ export function Header() {
 </li> 
       </S.List>
 
-      
-      
     </S.Container>
   )
 }
