@@ -16,7 +16,7 @@ useEffect (() => {
 
 return (
     <S.Container>
-{list.map((item, index) => (
+{list.slice(0,25).map((item, index) => (
 
         <S.BoxImage key={index}>
           <h1>  {item.name}   </h1>
